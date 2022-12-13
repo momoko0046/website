@@ -187,7 +187,7 @@ aside {
     position: absolute; 
     background: rgba(250, 250, 250, 0.5);
     box-shadow: 0px 0px 0px 10px  rgba(250, 250, 250, 0.5);
-    border: dashed 2px #aec8f9;
+    border: dashed 2px  rgb(250, 238, 207);
     width: 400px;
     height: 200px;
 }
@@ -216,6 +216,7 @@ aside {
 .section-color1 {
     background-color: rgb(250, 238, 207);
     margin-top: 80px;
+    padding-bottom: 40px;
 }
 
 /* font
@@ -480,7 +481,90 @@ a.btn-flat-blue:hover:before {
 
 /* 日記
 ------------------------------------------*/
-.section-color2 {
-    background-color: rgb(255, 238, 252);
-    margin-top: 80px;
+
+@import url(https://fonts.googleapis.com/css?family=RobotoDraft:400,300,500,700);
+
+/*
+body {
+    background: #EDF0F3;
+    font-family: 'RobotoDraft', sans-serif;
+    font-size: 16px;
+}
+*/
+
+article {
+    background: #F7F9FB;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    height: 250px;
+    margin: 64px auto;
+    position: relative;
+    width: 880px;
+}
+
+.articlecard {
+    border: solid 16px #FFF;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 32px rgba(0,0,0,.1);
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 400px;
+    height: 220px;
+    object-fit: cover;
+}
+
+
+.articlecard-text {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 32px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.category {
+    color: #4FC1E9;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 2px 0;
+    text-transform: uppercase;
+}
+
+.article-h1 {
+    color: #656D78;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 16px 0;
+}
+
+article-p {
+    color: #656D78;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 8px 0;
+}
+
+.article-a {
+    background: #4FC1E9;
+    box-shadow: 0 4px 8px rgba(79, 193, 233,.5);
+    color: #FFF;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 50px;
+    width: 170px;
+    line-height: 50px;
+    text-align: center;
+    transition: all ease .4s;
+}
+.article-a:hover {
+    background: #1AA0D1;
+    box-shadow: 0 4px 8px rgba(26, 160, 209,.5);
 }
