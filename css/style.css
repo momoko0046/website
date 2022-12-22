@@ -170,7 +170,7 @@ aside {
 
 .post-title {
     text-align: center;
-    padding:840px 0 30px 0;
+    padding:860px 0 40px 0;
     font-family: 'Kaisei Opti', serif;
 }
 
@@ -210,13 +210,13 @@ aside {
     border-radius:50%;
     object-fit: cover;
     margin-left: 130px;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
 }
 
 .section-color1 {
     background-color: rgb(250, 238, 207);
     margin-top: 80px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
 }
 
 /* font
@@ -227,7 +227,7 @@ aside {
 }
 
 h2 {
-    padding: 60px 0;
+    padding: 80px 0 60px 0;
     text-align: center;
 }
 
@@ -403,81 +403,6 @@ a.btn-flat:hover:before {
 
 
 
-.btn2,
-a.btn2,
-button.btn2 {
-    font-size: 62.5%;
-    height: 70px;
-    width: 300px;
-    font-size: 1.0rem;
-    font-weight: 700;
-    line-height: 1.5;
-    position: relative;
-    display: inline-block;
-    margin: auto;
-    padding: 1rem 0rem;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    text-align: center;
-    vertical-align: middle;
-    text-decoration: none;
-    letter-spacing: 0.1em;
-    color: #212529;
-    border-radius: 0.5rem;
-}
-
-a.btn-flat {
-    height: 70px;
-    width: 300px;
-    overflow: hidden;
-    padding: 1.5rem 2rem;
-    color: #432;
-    border-radius: 0;
-    background-color: rgba(250, 250, 250, 0.9);
-
-}
-
-
-a.btn-flat-blue {
-    height: 70px;
-    width: 300px;
-    overflow: hidden;
-    padding: 1.5rem 2rem;
-    color: #432;
-    border-radius: 0;
-    background-color: rgba(250, 250, 250, 0.9);
-
-}
-  
-a.btn-flat-blue span {
-    position: relative;
-
-}
-  
-a.btn-flat-blue:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: '';
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
-    -webkit-transform: translateX(-96%);
-    transform: translateX(-96%);
-    background: rgb(125, 195, 253);
-}
-  
-a.btn-flat-blue:hover:before {
-
-    -webkit-transform: translateX(0%);
-    transform: translateX(0%);
-}
 
 /* 日記
 ------------------------------------------*/
@@ -504,7 +429,7 @@ article {
 .articlecard {
     border: solid 16px #FFF;
     box-sizing: border-box;
-    box-shadow: 8px 8px 32px rgba(0,0,0,.1);
+    box-shadow: 8px 8px 32px rgba(0,0,0,.2);
     position: absolute;
     top: -20px;
     left: -20px;
@@ -568,3 +493,107 @@ article-p {
     background: #1AA0D1;
     box-shadow: 0 4px 8px rgba(26, 160, 209,.5);
 }
+#container2{
+    width:715px;
+    height:200px;
+    margin:70px 0px 0px 150px;
+  
+}
+
+#container2-2{
+    width:715px;
+    height:140px;
+    margin:auto;
+  
+}
+
+.button-7{
+    width:140px;
+    height:50px;
+    border:2px solid #3F61A1;
+    background-color: #3F61A1;
+    float:left;
+    text-align:center;
+    cursor:pointer;
+    position:relative;
+    box-sizing:border-box;
+    overflow:hidden;
+    margin:0 0 40px 50px;
+    
+}
+
+.button-7-2{
+    width:140px;
+    height:50px;
+    border:2px solid #3F61A1;
+    background-color: #3F61A1;
+    float:left;
+    text-align:center;
+    cursor:pointer;
+    position:relative;
+    box-sizing:border-box;
+    overflow:hidden;
+    margin:60px 0 70px 290px;
+    
+}
+.button-7:hover a{
+    color:#fff;
+    
+}
+
+.button-7-2:hover a{
+    color:#fff;
+    
+}
+
+.eff-7{
+    width:140px;
+    height:50px;
+    border:0px solid #3F61A1;
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+    box-sizing:border-box;
+}
+
+.eff-7-2{
+    width:140px;
+    height:50px;
+    border:0px solid #3F61A1;
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+    box-sizing:border-box;
+}
+
+.button-7:hover .eff-7{
+    border:70px solid #2d4c85;
+}
+
+.button-7-2:hover .eff-7-2{
+    border:70px solid #2d4c85;
+}
+
+.button-7 a{
+    color:#fff;
+    font-family:arial;
+    font-size:16px;
+    text-decoration:none;
+    line-height:50px;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+}
+
+.button-7-2 a{
+    color:#fff;
+    font-family:arial;
+    font-size:16px;
+    text-decoration:none;
+    line-height:50px;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+}
+  
+
