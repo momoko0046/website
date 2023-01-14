@@ -2,9 +2,10 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>ぽきおの部屋</title>
         <meta name="description" content="飼い犬について">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Caveat&family=M+PLUS+Rounded+1c:wght@400;800&family=Kaisei+Opti&family=M+PLUS+Rounded+1c:wght@400;800&family=Noto+Sans+JP:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
@@ -12,9 +13,10 @@
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     </head>
     <body>
-        <div id="home" class="big-bg">
+        <div id="home">
             <header class="page-header wrapper">
                 <h1 class="site-name"><a href="index.html">ぽきおの部屋</a></h1>
+                <span class="fas fa-bars menu-icon"></span>
                 <nav>
                     <ul class="main-nav">
                         <li><a href="profile.html">プロフィール</a></li>
@@ -23,7 +25,29 @@
 
                     </ul>
                 </nav>
-                
+                <div class="hamburger-menu">
+                    <input type="checkbox" id="menu-btn-check">
+                    <label for="menu-btn-check" class="menu-btn"><span></span></label>
+                </div>
+                <div class="hamburger-menu">
+                    <input type="checkbox" id="menu-btn-check">
+                    <label for="menu-btn-check" class="menu-btn"><span></span></label>
+                    <!--ここからメニュー-->
+                    <div class="menu-content">
+                        <ul>
+                            <li>
+                                <a href="#">メニューリンク1</a>
+                            </li>
+                            <li>
+                                <a href="#">メニューリンク2</a>
+                            </li>
+                            <li>
+                                <a href="#">メニューリンク3</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--ここまでメニュー-->
+                </div>
             </header>
         </div><!-- /#home -->
 
@@ -34,7 +58,7 @@
             <div class="box14">
                 <p>ポッキーの日常を届ける</p>
                 <p>「ぽきおの部屋」</p>
-                <p></p>
+
             </div>
         <div>
 
